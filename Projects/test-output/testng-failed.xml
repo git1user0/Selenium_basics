@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="ChromeLaunch(failed)">
+    <parameter name="browser" value="google"/>
+    <classes>
+      <class name="tests.Parameterization_concept">
+        <methods>
+          <include name="script_test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.Parameterization_concept -->
+    </classes>
+  </test> <!-- ChromeLaunch(failed) -->
+  <test thread-count="5" parallel="tests" name="EdgeLaunch(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="tests.Parameterization_concept">
+        <methods>
+          <include name="script_test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.Parameterization_concept -->
+    </classes>
+  </test> <!-- EdgeLaunch(failed) -->
+  <test thread-count="5" parallel="tests" name="FirefoxLaunch(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.Parameterization_concept">
+        <methods>
+          <include name="script_test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.Parameterization_concept -->
+    </classes>
+  </test> <!-- FirefoxLaunch(failed) -->
+</suite> <!-- Failed suite [Suite] -->

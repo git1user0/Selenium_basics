@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-10T06:09:58 IST" name="Default suite" finished-at="2025-02-10T06:09:58 IST" duration-ms="88">
+    <groups>
+    </groups>
+    <test started-at="2025-02-10T06:09:58 IST" name="Default test" finished-at="2025-02-10T06:09:58 IST" duration-ms="88">
+      <class name="tests.Data_provide_class">
+        <test-method signature="userData(java.lang.String,int)[pri:0, instance:tests.Data_provide_class@3857f613]" started-at="2025-02-10T06:09:58 IST" name="userData" data-provider="bharath3" finished-at="2025-02-10T06:09:58 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manual]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[89]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userData -->
+        <test-method signature="userData(java.lang.String,int)[pri:0, instance:tests.Data_provide_class@3857f613]" started-at="2025-02-10T06:09:58 IST" name="userData" data-provider="bharath3" finished-at="2025-02-10T06:09:58 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SQL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userData -->
+        <test-method signature="userData(java.lang.String,int)[pri:0, instance:tests.Data_provide_class@3857f613]" started-at="2025-02-10T06:09:58 IST" name="userData" data-provider="bharath3" finished-at="2025-02-10T06:09:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CORE JAVA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[89]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userData -->
+      </class> <!-- tests.Data_provide_class -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
